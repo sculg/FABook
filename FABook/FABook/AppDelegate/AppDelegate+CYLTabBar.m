@@ -97,8 +97,8 @@
     [tabBar setTitleTextAttributes:selectedAttrs forState:UIControlStateSelected];
     
     // 设置背景图片
-    UITabBar *tabBarAppearance = [UITabBar appearance];
-    [tabBarAppearance setBackgroundImage:[UIImage imageNamed:@"tabbar_background"]];
+//    UITabBar *tabBarAppearance = [UITabBar appearance];
+//    [tabBarAppearance setBackgroundImage:[UIImage imageNamed:@"tabbar_background"]];
 }
 
 @end
