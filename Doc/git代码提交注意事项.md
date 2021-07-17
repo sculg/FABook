@@ -9,13 +9,33 @@ iOS提交代码时候，不需要把pod文件一并提交。可以通过一下�
 4. 忽略pod。
 
    ```
-   Pods/
-   Pods
+   # Xcode
    .DS_Store
+   build
+   report.xml
+   *.pbxuser
+   !default.pbxuser
+   *.mode1v3
+   !default.mode1v3
+   *.mode2v3
+   !default.mode2v3
+   *.perspectivev3
+   !default.perspectivev3
+   xcuserdata
+   *.moved-aside
+   DerivedData
+   .idea/
+   *.hmap
+   *.xccheckout
+   *.xcworkspace
+   !default.xcworkspace
+   #CocoaPods
+   Pods
    Podfile.lock
-   /.DS_Store
-   Podfile.lock
-   /Podfile.lock
+   xcschemes
    ```
 
 5. 保存。
+
+参考：iOS .gitignore 配置文件 https://www.jianshu.com/p/238086418384
+
