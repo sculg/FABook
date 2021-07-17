@@ -1,48 +1,30 @@
 PODS:
-  - Charts (3.6.0):
-    - Charts/Core (= 3.6.0)
-  - Charts/Core (3.6.0)
   - CYLTabBarController (1.29.0):
     - CYLTabBarController/Core (= 1.29.0)
   - CYLTabBarController/Core (1.29.0)
-  - FMDB (2.7.5):
-    - FMDB/standard (= 2.7.5)
-  - FMDB/standard (2.7.5)
-  - LKDBHelper (2.5.7):
-    - LKDBHelper/standard (= 2.5.7)
-  - LKDBHelper/standard (2.5.7):
-    - FMDB
   - Masonry (1.1.0)
   - ReactiveObjC (3.0.0)
   - YYModel (0.9.7)
 
 DEPENDENCIES:
-  - Charts
   - CYLTabBarController
-  - LKDBHelper
   - Masonry
   - ReactiveObjC (~> 3.0.0)
   - YYModel (= 0.9.7)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - Charts
     - CYLTabBarController
-    - FMDB
-    - LKDBHelper
     - Masonry
     - ReactiveObjC
     - YYModel
 
 SPEC CHECKSUMS:
-  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
   CYLTabBarController: f5460b8446f82d016945d4d53895a1ef185b79e3
-  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  LKDBHelper: e853b4408ffa1a5cc1c39346c45b4204db83e10a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
   YYModel: 88f4bdec25975a8f642daa0bb572b039a3ab1db1
 
-PODFILE CHECKSUM: 5b46bcb2fee26525c77f0052b36bbdf9db1010b1
+PODFILE CHECKSUM: 9d35650c9a90401df5436dbfddd8ccb721b85ba6
 
 COCOAPODS: 1.10.0
