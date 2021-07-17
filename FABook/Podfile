@@ -10,9 +10,9 @@ target 'FABook' do use_frameworks!
   pod 'YYModel', '0.9.7'
   pod 'LKDBHelper'
   pod 'Charts'
-#  pod 'FABAllTreasure', :path=> '../FABAllTreasure'
-#  pod 'FABCoreSDK', :path=> '../FABCoreSDK'
-  pod 'FABDataCenter', :path=> '../FABDataCenter'
+  pod 'FABAllTreasure', :path=> '../../FABAllTreasure'
+  pod 'FABCoreSDK', :path=> '../../FABCoreSDK'
+  pod 'FABDataCenter', :path=> '../../FABDataCenter'
   pod 'CYLTabBarController'
   
 end

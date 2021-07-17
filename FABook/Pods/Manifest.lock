@@ -2,9 +2,16 @@ PODS:
   - Charts (3.6.0):
     - Charts/Core (= 3.6.0)
   - Charts/Core (3.6.0)
+  - CTMediator (46)
   - CYLTabBarController (1.29.0):
     - CYLTabBarController/Core (= 1.29.0)
   - CYLTabBarController/Core (1.29.0)
+  - FABAllTreasure (0.1.1):
+    - CTMediator
+    - FABCoreSDK
+  - FABCoreSDK (0.1.7)
+  - FABDataCenter (0.1.2):
+    - LKDBHelper (~> 2.3)
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
@@ -14,31 +21,51 @@ PODS:
     - FMDB
   - Masonry (1.1.0)
   - ReactiveObjC (3.0.0)
+  - YYModel (0.9.7)
 
 DEPENDENCIES:
   - Charts
   - CYLTabBarController
+  - FABAllTreasure (from `../../FABAllTreasure`)
+  - FABCoreSDK (from `../../FABCoreSDK`)
+  - FABDataCenter (from `../../FABDataCenter`)
   - LKDBHelper
   - Masonry
   - ReactiveObjC (~> 3.0.0)
+  - YYModel (= 0.9.7)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Charts
+    - CTMediator
     - CYLTabBarController
     - FMDB
     - LKDBHelper
     - Masonry
     - ReactiveObjC
+    - YYModel
+
+EXTERNAL SOURCES:
+  FABAllTreasure:
+    :path: "../../FABAllTreasure"
+  FABCoreSDK:
+    :path: "../../FABCoreSDK"
+  FABDataCenter:
+    :path: "../../FABDataCenter"
 
 SPEC CHECKSUMS:
   Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  CTMediator: f1cf58d509fb3192086c367711f039efd769b907
   CYLTabBarController: f5460b8446f82d016945d4d53895a1ef185b79e3
+  FABAllTreasure: f970b6cc13c6878d5dfa89f3deb96e7af66fdbcf
+  FABCoreSDK: 8e5fba0978c844a985e7b2b8c6e62e4739aa3e02
+  FABDataCenter: 02abfcd412cb678a8f195326c7998c14ce8a677b
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   LKDBHelper: e853b4408ffa1a5cc1c39346c45b4204db83e10a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
+  YYModel: 88f4bdec25975a8f642daa0bb572b039a3ab1db1
 
-PODFILE CHECKSUM: d4ce3b6a0e97de5968f96272bec5d4d579d9f12a
+PODFILE CHECKSUM: 9c47a6ede66861b179c2ef79f15ee6840eef09e3
 
 COCOAPODS: 1.10.0

@@ -1,7 +1,12 @@
 ${PODS_ROOT}/Target Support Files/Pods-FABook/Pods-FABook-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework
 ${BUILT_PRODUCTS_DIR}/CYLTabBarController/CYLTabBarController.framework
 ${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/FABAllTreasure/FABAllTreasure.framework
+${BUILT_PRODUCTS_DIR}/FABCoreSDK/FABCoreSDK.framework
+${BUILT_PRODUCTS_DIR}/FABDataCenter/FABDataCenter.framework
 ${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework
 ${BUILT_PRODUCTS_DIR}/LKDBHelper/LKDBHelper.framework
 ${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
 ${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework
+${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework
