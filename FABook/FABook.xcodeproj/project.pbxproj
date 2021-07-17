@@ -296,6 +296,7 @@
 				CBDAAC22269F35C00084A5D1 /* Sources */,
 				CBDAAC23269F35C00084A5D1 /* Frameworks */,
 				CBDAAC24269F35C00084A5D1 /* Resources */,
+				06E1F901531892574D798449 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -351,6 +352,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		06E1F901531892574D798449 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FABook/Pods-FABook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FABook/Pods-FABook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FABook/Pods-FABook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		155E1B0FE9A6620E1B0C8CB7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
