@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://gitlab.com/fab12/FABSpec.git'
+
+
+platform :ios, '9.0'
+
+target 'FABook' do use_frameworks!
+pod 'Masonry'
+pod 'ReactiveObjC', '~> 3.0.0'  
+pod 'YYModel', '0.9.7'
+pod 'LKDBHelper'
+pod 'Charts'
+# pod 'FABAllTreasure', :path=> '../FABAllTreasure'
+# pod 'FABCoreSDK', :path=> '../FABCoreSDK'
+pod 'CYLTabBarController'
+
+end
